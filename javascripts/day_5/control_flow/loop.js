@@ -87,34 +87,30 @@
 // }
 
 
+
+
 // }
 
 // console.log("done")
 
+// while lop
+
+var num=10
+//block scope
+while(num>=0){
+    console.log(num)
+    num--
+
+}
 
 
-// 3D coedinate
-//  for(let i=0;i<3;i++){
 
-// for(let j=0;j<3;j++){
-//     for(let k=0;k<3;k++){
-//         console.log(`the cordinate be ${i},${j},${k}`)
-//     }
-// }}
-// console.log("all done")
+//do while loop
+do {
+  console.log(num)
+  num--
+
+}
+while(num>=0)
 
 
-// labelname in J/\
-outer: for (let i = 0; i < 3; i++) {
-
-    for (let j = 0; j < 3; j++) {
-  
-      let input = +prompt(`Value at coords (${i},${j})`, '');
-  
-      // if an empty string or canceled, then break out of both loops
-      if (!input) break outer; // (*)
-  
-      // do something with the value...
-    }
-  }
-  alert('Done!');

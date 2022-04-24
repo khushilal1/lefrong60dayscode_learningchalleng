@@ -72,3 +72,14 @@ console.log(N_ame);
 
 change_variable() //global variable can be change ass our requirement
 
+//default parameter
+function mult(a,b){
+    return a*b
+
+}
+
+console.log(mult(2,3));
+
+
+
+//************************************************************************** */
