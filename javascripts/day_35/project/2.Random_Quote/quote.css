@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    margin-top: 200px;
+font-family: cursive;
+font-size: 100px;
+
+}
+body{
+    background-color: rgb(8, 141, 189);
+}
+
+#input{
+    text-align: center;
+    margin-top: 100px;
+    height: 50px;
+    border-radius: 40%;
+
+}
+
+#paragraph{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+}
