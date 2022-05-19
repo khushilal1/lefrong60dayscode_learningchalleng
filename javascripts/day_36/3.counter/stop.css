@@ -1,0 +1,23 @@
+body{
+    margin-top: 100px;
+    background-color: rgb(66, 183, 165);
+}
+
+#body{
+    text-align: center;
+}
+
+#paragraph{
+    margin-top: 100px;
+margin-left: 45%;
+width: 100px;
+text-align: center;
+}
+
+h1{
+    font-family: cursive;
+}
+
+#button{
+    margin-top: 50px;
+}
