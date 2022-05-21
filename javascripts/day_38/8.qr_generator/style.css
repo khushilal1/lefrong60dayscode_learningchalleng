@@ -1,0 +1,39 @@
+
+.area{
+    align-items: center;
+    
+}
+h1{
+    text-align: center;
+}
+
+#text{
+    background-color: rgb(177, 205, 219);
+    border-radius: 10px solid green;
+}
+body{
+    justify-content: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+
+#loading{
+    display: none;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: 5px solid red;
+    border-top: 5px solid black;
+    animation: loading 1s linear infinite;
+
+}
+@keyframes loading{
+    from{
+      transform:rotate(0deg);
+    }
+    to{
+      transform:rotate(360deg);
+    }
+}
