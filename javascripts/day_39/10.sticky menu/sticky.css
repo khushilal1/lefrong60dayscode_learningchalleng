@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+}
+
+h2{
+    margin-bottom: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#navbar{
+    text-align: center;
+}
+#logo{
+    margin-top: 4%;
+    height: auto;
+    width:250px;
+    border-radius: 20%;
+}
+
+#menubar{
+    text-align: center;
+    background-color: rgb(15, 105, 58);
+    list-style: none;
+
+}
+
+#menubar li{
+    display: inline-block;
+    padding: 30px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+#conatiner{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#container h1{
+    padding: 50px 100px;
+
+}
+
+#header{
+margin-top: 7%;
+}
+
+#about{
+    margin-top: 100px;
+    height: 500px;width: 1900px;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
