@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+
+        </style>
+    </head>
+    <body>
+   <button id="clear">clearInterval</button>
+        <script>
+
+        // let timeoutid=setTimeout(myfunction,5000)
+           
+        
+        // function myfunction(){
+        //         alert("you have enterd to the website")
+        //     }
+        //     //stoping the running time
+        //     clearTimeout(timeoutid)
+
+
+           let interval= setInterval(mysetfun,1000)
+function mysetfun(){
+    console.log("set interval funtion");
+}
+
+
+
+clear=document.getElementById("clear")
+
+clear.addEventListener("click",function(){
+    clearInterval(interval)
+})
+
+        </script>
+    </body>
+</html>
