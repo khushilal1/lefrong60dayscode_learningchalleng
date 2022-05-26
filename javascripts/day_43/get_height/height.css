@@ -1,0 +1,10 @@
+.box_container{
+    background-color: #ff0000;
+    color: black;
+    height: 200px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 10px;
+    border: 10px solid black;
+}
+    
