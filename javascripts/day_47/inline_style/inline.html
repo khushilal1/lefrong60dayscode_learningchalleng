@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+       <button id="button">inline css</button>
+        <script >
+let btn=document.getElementById("button")
+console.log(btn);
+//same as teh css
+// method 1
+            btn.style.cssText="background:red;color:white;font-size:20px"
+    
+        //setting as the set attribute
+//method2
+        console.log(btn.setAttribute("style",'background:blue;color:red'));
+       
+    //    method3
+    btn.style.color="black"
+       
+       </script>
+    </body>
+</html>
