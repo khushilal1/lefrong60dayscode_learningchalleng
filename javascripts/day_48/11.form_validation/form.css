@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(42, 232, 232);
+}
+
+#login{
+
+    text-align: center;
+    font-family: monospace;
+}
+
+.form_validation{
+    text-align: center;
+    justify-content: center;
+    background-color: aliceblue;
+  margin-left: 30%;
+  margin-right: 30%;
+  height: 400px;
+  margin-top: 20%;
+  padding: 20px 0px 20px 0px;
+}
+input{
+    
+    margin: 10px 0px;
+    height: 40px;
+color: black;
+width: 30%;
+}
+
+input[type="submit"]{
+border-radius: 5%;
+background-color: rgba(13, 5, 225, 0.714);
+border: 0px;
+color: white;
+
+}
+
+input[type="text"],input[type="password"]{
+    height: 45px;
+    margin-top: 20px;
+    font-family: cursive;
+}

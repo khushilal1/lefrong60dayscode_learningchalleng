@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html class="no-js">
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>form validation</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="form_validation">
+        <h1 id="login">login</h1>
+        <form action="" class="form" onsubmit="return validateform()">
+
+            <input id='text' autocomplete="username" type="text" placeholder=" Username"><br>
+            <p id="fromtext" style="color: red; font-family: cursive;margin: 0px;text-align: center;"></p>
+            <input id="password" autocomplete="current-password" type="password" placeholder="password"><br>
+         <p id="pass" style="color: red; font-family: cursive;margin: 0px;text-align: center;"></p>
+            <input type="submit">
+        </form>
+
+    </div>
+
+
+    <script src="form.js" async defer></script>
+</body>
+
+</html>
