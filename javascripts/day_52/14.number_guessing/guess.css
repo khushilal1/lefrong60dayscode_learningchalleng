@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(41, 143, 233);
+    font-family: cursive;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+input[type="text"] {
+    text-align: center;
+    margin: auto;
+    font-family: cursive;
+    background-color: burlywood;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+#number {
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+input[Type="submit"] {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(158, 139, 115);
+    border-radius: 20px;
+
+    font-family: cursive;
+    font-size: 40px;
+
+}

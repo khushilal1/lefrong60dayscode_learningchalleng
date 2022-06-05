@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Number guessing</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="guess.css">
+</head>
+
+<body>
+    <h1>Number guessing project in javascripts</h1>
+    <div id="number">
+        <p>Enter the number between 1 to 20</p>
+        <input type="text" placeholder="guess the number" id="value">
+        <p id="para"></p>
+
+        
+        <h2 id="clear">You have <p id="chance">20</p> chance to Guess</h2>
+    </div>
+    <div id="button">
+        <input type="submit" value="Again" id="repeat">
+
+        <input type="submit" value="check" onclick="checking()">
+
+    </div>
+    <script src="guess.js"></script>
+</body>
+
+</html>

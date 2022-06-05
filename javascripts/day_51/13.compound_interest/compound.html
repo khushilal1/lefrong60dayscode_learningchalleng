@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>compound interest</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="compound.css">
+    </head>
+    <body>
+        <div id="interest">
+            Compound Interest determiner project in javascripts
+        </div>
+        <div id="detail">
+        Enter the detail to get the reqired result.
+        </div>
+        <div id="container">
+            
+        <div id="starting">
+            <p id="para">Enter the date at which you borrow..</p>
+            <input type="text" placeholder="year" id="s_year">
+            <input type="text" placeholder="month" id="s_month">
+            <input type="text" placeholder="day" id="s_day">
+            </div>
+
+            <div id="end">
+            <p id="para">Enter the date at which you return..</p>
+            <input type="text" placeholder="year" id="e_year">
+            <input type="text" placeholder="month" id="e_month">
+            <input type="text"placeholder="day" id="e_day">
+        </div>
+        <div id="end">
+            <p id="para">Enter the amout which you borrow..</p>
+            <input type="text" placeholder="principal" id="principal">
+        </div>
+        <div id="end">
+            <p id="para">Enter the rate of interest  per month..</p>
+            <input type="text" placeholder="rate(%)" id="rate">
+        </div>
+
+<div>
+    <p id="interest"></p>
+    <p id="amount"></p>
+</div>
+
+        <input type="submit" value="click" onclick="calculate()">
+
+</div>
+        <script src="compound.js" ></script>
+    </body>
+</html>
